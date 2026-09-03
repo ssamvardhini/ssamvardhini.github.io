@@ -153,6 +153,31 @@ section.card p:last-child{ margin-bottom: 0; }
   opacity: 0.88;
 }
 
+.fig-wrap{
+  text-align: center;
+  margin: 8px 0 24px;
+}
+.fig-wrap a{
+  display: inline-block;
+  border-radius: 10px;
+}
+.fig-wrap img{
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  cursor: zoom-in;
+  transition: opacity 0.15s ease;
+}
+.fig-wrap a:hover img{
+  opacity: 0.88;
+}
+.fig-caption{
+  margin: 10px 0 0;
+  font-size: 0.85rem;
+  color: var(--subink);
+  font-style: italic;
+}
+
 footer.site-footer{
   text-align: center;
   padding: 20px;
