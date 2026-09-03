@@ -163,7 +163,7 @@ section.card p:last-child{ margin-bottom: 0; }
 }
 .fig-wrap img{
   max-width: 100%;
-  width: 480px;
+  width: 380px;
   border-radius: 10px;
   box-shadow: var(--shadow);
   cursor: zoom-in;
