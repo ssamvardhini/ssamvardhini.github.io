@@ -163,6 +163,7 @@ section.card p:last-child{ margin-bottom: 0; }
 }
 .fig-wrap img{
   max-width: 100%;
+  width: 480px;
   border-radius: 10px;
   box-shadow: var(--shadow);
   cursor: zoom-in;
@@ -173,8 +174,8 @@ section.card p:last-child{ margin-bottom: 0; }
 }
 .fig-caption{
   margin: 10px 0 0;
-  font-size: 0.85rem;
-  color: var(--subink);
+  font-size: 0.78rem;
+  color: #9a9186;
   font-style: italic;
 }
 
