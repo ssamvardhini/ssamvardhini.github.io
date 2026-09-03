@@ -1,0 +1,39 @@
+<title>Research — Samvardhini Sridharan</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<header class="site-nav">
+  <div class="brand">Samvardhini Sridharan</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="beyond-the-lab.html">Beyond the Lab</a></li>
+      <li><a href="science-communication.html">Science Communication</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="hero" style="padding-bottom:0;">
+    <div>
+      <h1>Research</h1>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2>Current work</h2>
+    <p>I am developing a genome-wide reference panel and imputation framework for chromosomal inversions &mdash; an understudied class of structural variation that is copy-number neutral yet reversed in sequence orientation. Inversions disrupt genes, alter regulatory architecture, and suppress recombination, with disease consequences exemplified by the 17q21.31 locus, where inversion haplotypes are associated with Koolen-de Vries syndrome susceptibility and variation in fecundity and recombination rate. Most inversions, however, are poorly represented in the imputation panels that make GWAS possible, in part because many arise recurrently at loci flanked by segmental duplications whose breakpoints short-read sequencing cannot resolve.</p>
+    <p>To address this, I've collated several long-read haplotypes to resolve structural variation across complex, medically relevant inversion loci genome-wide, including many regions previously unreported due to their complexity. Classifying the largest callset of large (&gt;5kb) inversions to date by breakpoint architecture shows that most are recurrent, arising within overlapping duplicated regions rather than as unique events. To account for the many SNPs that only imperfectly tag these recurrent inversions, I've developed a Hidden Markov Model (HMM)-based approach that models haplotype structure to enable robust imputation of inversions even at recurrent loci. I plan to apply this framework to impute common balanced inversions into the UK Biobank and <em>All of Us</em> (~1 million samples combined) to enable disease association studies. As a case study, I've used the complex 17q21.31 locus to identify tag SNPs for future investigation.</p>
+
+    <h2>Where this is headed</h2>
+    <p>My broader research program centers on incorporating structural variants into GWAS to better understand their role in human health and disease outcomes. Long-read sequencing and pangenome resources form the backbone of this work, and I'm especially drawn to extending it comparatively into primates, using structural variation in great apes to sharpen what we can learn about disease risk and genome function in humans.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  &copy; <span id="year"></span> Samvardhini Sridharan
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
