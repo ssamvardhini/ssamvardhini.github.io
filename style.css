@@ -138,10 +138,19 @@ section.card p:last-child{ margin-bottom: 0; }
   text-align: center;
   margin: 8px 0 28px;
 }
+.timeline-wrap a{
+  display: inline-block;
+  border-radius: 10px;
+}
 .timeline-wrap img{
   max-width: 100%;
   border-radius: 10px;
   box-shadow: var(--shadow);
+  cursor: zoom-in;
+  transition: opacity 0.15s ease;
+}
+.timeline-wrap a:hover img{
+  opacity: 0.88;
 }
 
 footer.site-footer{
