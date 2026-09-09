@@ -134,6 +134,42 @@ section.card p{
 }
 section.card p:last-child{ margin-bottom: 0; }
 
+.news-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.news-list li{
+  padding: 10px 0;
+  border-bottom: 1px solid #ece1d2;
+  color: var(--subink);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.news-list li:last-child{ border-bottom: none; }
+
+.news-date{
+  display: inline-block;
+  min-width: 78px;
+  font-weight: 600;
+  color: var(--brand);
+  margin-right: 6px;
+}
+
+.news-more{ margin-top: 2px; }
+.news-more summary{
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.88rem;
+  padding: 10px 0 2px;
+  list-style: none;
+}
+.news-more summary::-webkit-details-marker{ display: none; }
+.news-more summary::before{ content: "+ "; }
+.news-more[open] summary::before{ content: "\2212 "; }
+.news-more .news-list{ margin-top: 4px; }
+
 .timeline-wrap{
   text-align: center;
   margin: 8px 0 28px;
